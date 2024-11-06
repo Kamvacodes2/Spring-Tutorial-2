@@ -6,5 +6,4 @@ public interface EmployeeRepository extends JpaRepository {
     //JpaRepository already annotated with @Repository and @Transactional
     //all methods are default transactional
 
-
 }
