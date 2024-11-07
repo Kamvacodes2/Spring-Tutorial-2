@@ -11,4 +11,7 @@ public interface EmployeeService {
 
     //Create get all Employees Method in interface
     List<EmployeeDto> getAllEmployees();
+
+    //Create update Employee Method in interface
+    EmployeeDto updateEmployee(Long employeeId, EmployeeDto updatedEmployee);
 }
